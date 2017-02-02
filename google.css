@@ -1,7 +1,13 @@
 
 #logo {
-	margin: 20px auto;
+	width:270px;
+	height:90px;
+	margin: 0 auto;
 	display: block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-75px 0 0 -135px;
 }
 
 #icon {
@@ -10,13 +16,14 @@
 }
 
 form {
-	display:relative;
+	position:relative;
 	text-align: center;
 	font-family: arial,sans-serif;
 	border-radius: 2px;
 }
 
 li {
+	position: absolute;
 	display:block;
     float: right;
     line-height:38px;
@@ -24,6 +31,16 @@ li {
     padding:0;
     position:relative;
 }
+
+form.logo {
+	margin: 0 auto;
+	display: inline;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin:50px 0 0 -145px;
+}
+
 .navigation {
 
 	width: 100%;
