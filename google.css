@@ -22,13 +22,12 @@ form {
 	border-radius: 2px;
 }
 
-li {
-	position: absolute;
+ul.navigation > li {
 	display:block;
     float: right;
     line-height:38px;
     margin:0;
-    padding:0;
+    padding:5px;
     position:relative;
 }
 
@@ -42,14 +41,11 @@ form.logo {
 }
 
 .navigation {
-
 	width: 100%;
 	font-family: arial, sans-serif;
 	font-size: 12px;
 	color: #404040;
 	text-decoration: none;
-	margin: auto;
-	padding: 5px;
 }
 
 .search-bar {
@@ -58,11 +54,6 @@ form.logo {
 	box-shadow: 0.25px 0px rgba(0,0,0,0.1);
 	padding-left: 16px;
 	font-size: 16px;
-}
-
-
-.search-bar:active {
-	text-decoration:none;
 }
 
 .submit {
@@ -84,4 +75,33 @@ form.logo {
 	font-weight: bold;
 	color: black;
 	-webkit-linear-gradient:(top,#f8f8f8,#f1f1f1);
+}
+
+.footer {
+	background-color: #f2f2f2;
+	width: 100%;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	color: #666770;
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+ul.footer > li {
+	display:block;
+    float: left;
+    line-height:30px;
+    margin:0;
+    padding:5px;
+    bottom: 0;
+}
+
+ul.footer {
+    border-top: 1px solid #c6c6c6;
+	position:absolute;
+	display:block;
+    float: left;
+    margin:0;
+    padding:0;
+    bottom: 0;
 }
